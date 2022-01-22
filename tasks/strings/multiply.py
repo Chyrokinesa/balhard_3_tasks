@@ -19,7 +19,8 @@ def multiply_str(user_string: str, n: str) -> str:
 
     :return: результирующая строка
     """
-    result = None
+
+    result = user_string * int(n)
     return result
 
 
