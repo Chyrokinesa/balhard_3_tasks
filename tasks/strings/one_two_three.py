@@ -23,8 +23,11 @@ def process_numbers(numbers: str) -> str:
     :param numbers: строка для обработки
 
     :return: обработанная строка
+
     """
-    result = None
+
+    result = numbers.replace("1", "uno").replace("2", "two").replace("3", "")
+
     return result
 
 

@@ -7,7 +7,7 @@
 
 ПРИМЕРЫ
 --------------------------------------------------------------------------------
-str_sum("4", "5") -> 9
+str_sum("4", "5") ->9
 str_sum("34", "5") -> 39
 """
 
@@ -25,7 +25,7 @@ def str_sum(str1: str, str2: str) -> int:
     :return: сумму чисел из строк
     :rtype: int
     """
-    result = None
+    result = int(str1) + int(str2)
     return result
 
 
